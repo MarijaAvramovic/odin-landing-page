@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
- 
+    margin: 0;
+    padding: 0;
     
 }
 body{
@@ -14,6 +15,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 nav div{
     font-weight: bold;
@@ -45,7 +47,8 @@ header{
 .about-js{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    flex-wrap: wrap;
 }
 .left{
     flex:1;
@@ -54,7 +57,13 @@ header{
 }
 .right{
     flex:1;
- 
+     overflow: hidden;
+   
+}
+.right img{
+    height: 100%;
+    width: 100%;
+    
 }
 .sign-button{
     background-color: #fff1d1;
