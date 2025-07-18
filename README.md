@@ -18,7 +18,7 @@ Project is not moblie responsive per TOP instructions.
 used 
 flex 1, flex wrap check if responsive
 
-so far it took me  hr
+so far it took me  0.5 hr to add html elements
  
 
 *learn
