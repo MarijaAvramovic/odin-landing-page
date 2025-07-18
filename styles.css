@@ -1,11 +1,13 @@
 *{
     box-sizing: border-box;
-    border: 1px rgb(61, 27, 155) solid;
+ 
+    
 }
 body{
     max-width: 800px;
     margin: 0 auto;
     font-family: Roboto, serif;
+    background-color: #f1eee8;
 }
  
 nav{
@@ -43,6 +45,7 @@ header{
 .about-js{
     display: flex;
     justify-content: space-between;
+    
 }
 .left{
     flex:1;
@@ -70,6 +73,7 @@ padding: 4px 0;
 }
 .data-types{
         padding: 5px 55px 15px;
+        background-color: #f9faf8;
 }
 .data-types h3{ 
         text-align: center;
@@ -113,3 +117,32 @@ font-weight: 800;
     text-align: right;
     font-weight: 700;
 }
+.sign-up{
+     padding: 25px 55px ;
+          background-color: #f9faf8;
+}
+.blue-container{
+    background-color: #3882f6 ;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+     color: #f9faf8;
+}
+ 
+.blue-container h4{
+ margin: 0;
+}
+ .right-blue button{
+    background-color: #3882f6 ;
+    padding: 10px 20px;
+     border: #f9faf8 1px solid;
+     border-radius: 14px;
+     color: #e5e7eb;
+ }
+ .left-blue{
+    flex: 2;
+
+ }
+ 

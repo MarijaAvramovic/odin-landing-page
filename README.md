@@ -1,7 +1,7 @@
 # odin-landing-page
 For this project  I ll be creating an entire web page.
 
- 
+Image by Tobias from Pixabay tsmr.
 
 Tru project I used commit early & often.
  
