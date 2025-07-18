@@ -15,7 +15,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 10px 0;
+    margin-bottom: 20px;
 }
 nav div{
     font-weight: bold;
@@ -41,7 +42,7 @@ nav ul li {
 }
 header{
     background-color: #1f2937	;
-    padding: 5px 55px 15px;
+    padding: 5px 55px 75px;
     color: #f9faf8;
 }
 .about-js{
@@ -53,6 +54,11 @@ header{
 .left{
     flex:1;
     padding: 10px;
+    line-height: 1.2;
+    
+}
+.left h1{
+   margin-bottom: 10px;
     
 }
 .right{
@@ -72,11 +78,12 @@ header{
    border: black 1px solid;
    border-radius: 10%;
    padding: 10px 20px;
+   margin-top: 10px;
 }
 footer{
  
     background-color: #1f2937	;
-padding: 4px 0;
+padding: 14px 0;
     color: #f9faf8;
  text-align: center;
 }
@@ -84,8 +91,10 @@ padding: 4px 0;
         padding: 5px 55px 15px;
         background-color: #f9faf8;
 }
+ 
 .data-types h3{ 
         text-align: center;
+           margin: 20px 0;
 }
 .container-types{
     display: flex;
@@ -99,6 +108,7 @@ padding: 4px 0;
     gap:2px;
 text-align: center;
  
+ 
 }
 .type{
      height: 70px;
@@ -109,9 +119,11 @@ justify-content: center;
 border: 1px solid #3882f6;
 color: #3882f6;
 font-weight: 800;
+   margin-bottom: 5px;
 }
 .type p {
     font-size: 5px;
+ 
 }
 /* quote */
 .quote{

@@ -8,30 +8,24 @@ Tru project I used commit early & often.
 
 The website has 4 main sections (and a footer).
 
-First I added all the content onto the page before beginning to style it. 
-
+First I added all the content onto the page before beginning to style it. So far it took me  0.5 hr to add html elements.
 Using only one CSS file.
 
 Reference project flexbox exercises Odin Project. 
 Project is not moblie responsive per TOP instructions. 
 
 used 
-flex 1, flex wrap check if responsive
-
-so far it took me  0.5 hr to add html elements
+flex 1, flex wrap overflow hidden
  
 
-*learn
--blockquote still use div -quote use span as block
-learn
--recap shrink in hero section
+*learned
+-blockquote  
+-recap shrink  flex, flex wrap
 
--check flex wrap
-
-use 
+used 
 -line-height
 
--use vw for width
  
--img style in html and use %
+ 
+-img takes divs size and used %
  
