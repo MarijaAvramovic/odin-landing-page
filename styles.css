@@ -47,7 +47,7 @@ header{
 .left{
     flex:1;
     padding: 10px;
-    line-height: 1.4;
+    
 }
 .right{
     flex:1;
@@ -67,4 +67,33 @@ footer{
 padding: 4px 0;
     color: #f9faf8;
  text-align: center;
+}
+.data-types{
+        padding: 5px 55px 15px;
+}
+.data-types h3{ 
+        text-align: center;
+}
+.container-types{
+    display: flex;
+       justify-content: center;
+       padding: 10px;
+       gap: 10px;
+}
+.type-info{
+     flex: 1;
+    gap:2px;
+
+ 
+}
+.type{
+     height: 70px;
+ align-items: center;
+border-radius: 20%;
+display: flex;
+justify-content: center;
+
+}
+.type p {
+    font-size: 5px;
 }
