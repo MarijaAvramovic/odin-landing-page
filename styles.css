@@ -3,17 +3,11 @@
     border: 1px rgb(61, 27, 155) solid;
 }
 body{
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto, serif;
 }
-/* 
-	#a2c4c9	(162,196,201) green
-#d7aca8	(215,172,168) pink
-#cfcdc8	(207,205,200) gray
-#fff1d1	(255,241,209) yellow
-#e3d1c4	(227,209,196) pinky
-*/
+ 
 nav{
     display: flex;
     justify-content: space-between;
@@ -36,13 +30,15 @@ nav ul{
 }
 nav ul a{
     text-decoration: none;
+    color: #f9faf8;
 }
 nav ul li {
     flex: 1;
 }
 header{
-    background-color: #d7aca8	;
+    background-color: #1f2937	;
     padding: 5px 55px 15px;
+    color: #f9faf8;
 }
 .about-js{
     display: flex;
@@ -64,4 +60,11 @@ header{
    border: black 1px solid;
    border-radius: 10%;
    padding: 10px 20px;
+}
+footer{
+ 
+    background-color: #1f2937	;
+padding: 4px 0;
+    color: #f9faf8;
+ text-align: center;
 }
